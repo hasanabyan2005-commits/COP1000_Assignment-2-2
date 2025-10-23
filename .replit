@@ -1,18 +1,55 @@
-entrypoint = "main.py"
-modules = ["python-3.10:v18-20230807-322e88b"]
+employeeName = input(Kim Smith)
+numShifts = int(input(25))
+numTransactions = int(input(75))
+transactionValue = float(input(40000.00))
 
-[nix]
-channel = "stable-23_05"
+productivityScore = (40000.00/75/25)
+if 21.33 <= 69
+bonus = 75.0
+else:
+if 21.33 <= 199
+bonus = 100.0
+else:
+bonus 200.0
 
-[env]
-VIRTUAL_ENV = "$REPL_HOME/.pythonlibs"
+employeeName = input(Dave Matthews)
+numShifts = int(input(1))
+numTransactions = int(input(1))
+transactionValue = float(input(200.00))
 
-[unitTest]
-language = "python3"
+productivityScore = (200.00/1/1)
+if 200.00 <= 69
+bonus = 75.0
+else:
+if 200.00 <= 199
+bonus = 100.0
+else:
+bonus 200.0
 
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
+employeeName = input(James Patterson)
+numShifts = int(input(1))
+numTransactions = int(input(1))
+transactionValue = float(input(70))
 
-[deployment]
-run = ["python3", "main.py"]
-deploymentTarget = "cloudrun"
+productivityScore = (70.00/1/1)
+if 70.00 <= 69
+bonus = 75.0
+else:
+if 70.00 <= 199
+bonus = 100.0
+else:
+bonus 200.0
+
+employeeName = input(Jenna Jenkins)
+numShifts = int(input(15))
+numTransactions = int(input(30))
+transactionValue = float(input(70))
+
+productivityScore = (70.00/30/15)
+if 0.15 <= 69
+bonus = 75.0
+else:
+if 0.15 <= 199
+bonus = 100.0
+else:
+bonus 200.0
